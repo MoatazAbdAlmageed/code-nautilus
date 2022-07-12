@@ -46,12 +46,12 @@ fi
 # Remove previous version and setup folder
 echo "Removing previous version (if found)..."
 mkdir -p ~/.local/share/nautilus-python/extensions
-rm -f ~/.local/share/nautilus-python/extensions/VSCodeExtension.py
-rm -f ~/.local/share/nautilus-python/extensions/code-nautilus.py
+rm -f ~/.local/share/nautilus-python/extensions/VLCExtension.py
+rm -f ~/.local/share/nautilus-python/extensions/vlc-nautilus.py
 
 # Download and install the extension
 echo "Downloading newest version..."
-wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/code-nautilus.py https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/code-nautilus.py
+wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/vlc-nautilus.py https://raw.githubusercontent.com/harry-cpp/vlc-nautilus/master/vlc-nautilus.py
 
 # Restart nautilus
 echo "Restarting nautilus..."

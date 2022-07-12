@@ -13,10 +13,10 @@ from subprocess import call
 import os
 
 # path to vscode
-VSCODE = 'code'
+VSCODE = 'vlc'
 
 # what name do you want to see in the context menu?
-VSCODENAME = 'Code'
+VSCODENAME = 'VLC'
 
 # always create new window?
 NEWWINDOW = False
